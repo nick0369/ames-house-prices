@@ -29,3 +29,5 @@ Explain why the ID is dropped, why the target is logged, why preprocessing belon
 - [Computed metrics](reports/metrics.json)
 - [Aggregate out-of-fold error by year](reports/oof_error_by_year.csv)
 - Submission proof is provided on the portfolio case study; account owners can also view the Kaggle Submissions tab.
+
+- [Public code-sharing post on the competition forum](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/discussion/753304)
