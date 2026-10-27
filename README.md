@@ -2,6 +2,10 @@
 
 An independent educational entry for Kaggle's **House Prices – Advanced Regression Techniques**. Predict the sale price of 1,459 held-out Ames, Iowa homes using 1,460 labelled examples and 79 original features. This is a historical learning benchmark, not a production valuation service or an employment project.
 
+## Kaggle notebook
+
+[Open the competition-linked Kaggle notebook](https://www.kaggle.com/code/nikhilchandekar/ames-house-prices-validation-and-huber-boosting). The `.ipynb` in this repository contains the same workflow, adapted to Kaggle input/output paths. Kaggle public notebook licensing is displayed on Kaggle; repository source remains MIT licensed.
+
 ## Reproduce
 
 1. Join/read the [competition rules](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/rules) under your own Kaggle account.
