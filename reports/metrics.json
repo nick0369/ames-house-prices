@@ -1,0 +1,52 @@
+{
+  "training_rows": 1460,
+  "test_rows": 1459,
+  "input_features": 79,
+  "seed": 42,
+  "models": {
+    "mean_log_baseline": {
+      "fold_log_rmse": [
+        0.43324686081152136,
+        0.3958399343520812,
+        0.3753719643638157,
+        0.4210082100638856,
+        0.36845469709230083
+      ],
+      "oof_log_rmse": 0.3995755208747962,
+      "dollar_mae": 55655.36558387477
+    },
+    "ridge_alpha20": {
+      "fold_log_rmse": [
+        0.13823531892657775,
+        0.12623205624069975,
+        0.22520560087652236,
+        0.12556192814627515,
+        0.11388392583455814
+      ],
+      "oof_log_rmse": 0.15132510991302459,
+      "dollar_mae": 17634.070339515372
+    },
+    "gradient_boosting": {
+      "fold_log_rmse": [
+        0.13250333485789315,
+        0.11287425216857946,
+        0.16462420643794506,
+        0.12767960380877888,
+        0.11312702562564908
+      ],
+      "oof_log_rmse": 0.1315284494336303,
+      "dollar_mae": 15200.037014068517
+    }
+  },
+  "selected_model": "gradient_boosting",
+  "temporal_log_rmse": 0.13590733646044761,
+  "temporal_train_rows": 947,
+  "temporal_test_rows": 513,
+  "kaggle_score": 0.12728,
+  "data_sha256": {
+    "train.csv": "1e18addf81e5e4d347cc17ee6075bbe4a42b7fa26b9e5b063e8f692a5f929d41",
+    "test.csv": "8fdd3d829d4d986b58f845c9553b225e67dd8383624d90fb6ca1d4bed5798c1e"
+  },
+  "kaggle_submission_status": "Complete",
+  "submission_date": "2026-10-28"
+}
